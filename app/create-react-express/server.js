@@ -12,7 +12,7 @@ if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
 }
 //mongoose connection
-mongoose.connect("mongodb://localhost/unit18Populater", { useNewUrlParser: true });
+ mongoose.connect("mongodb://localhost/unit18Populater", { useNewUrlParser: true });
 
 // Define API routes here
 
